@@ -1,0 +1,41 @@
+#VRML_SIM R2020a utf8
+WorldInfo {
+}
+Viewpoint {
+  orientation -0.44668830520695524 0.8645879907362206 0.23012423658980974 1.0476656232311132
+  position 2.0892113809677997 1.7422843138891777 0.9860252194579741
+}
+TexturedBackground {
+}
+TexturedBackgroundLight {
+  luminosity -15
+}
+RectangleArena {
+  translation -0.252877 8.88178e-16 -0.697188
+  floorSize 1.5 1.5
+}
+WoodenBox {
+  translation -0.121949 0.04 -0.943314
+  rotation 0 1 0 1.0472
+  size 0.1 0.1 0.1
+}
+WoodenBox {
+  translation -0.23408 0.04 -0.506039
+  name "wooden box(2)"
+  size 0.1 0.1 0.1
+}
+WoodenBox {
+  translation -0.731766 0.04 -0.480881
+  name "wooden box(1)"
+  size 0.1 0.1 0.1
+}
+E-puck {
+  translation 0.287912 -6.39683e-05 -1.15385
+  rotation 3.7212763646923815e-05 0.9999999941970439 -0.00010109956765592003 3.6
+  controller "oneplusone_neuro"
+}
+CeilingLight {
+  translation -0.267954 1.25 -0.725737
+  pointLightIntensity 1.6
+  pointLightRadius 0.75
+}
